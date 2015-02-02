@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MDNewEntryViewController.h
 //  MyDiary
 //
 //  Created by Renato Camilio on 2/1/15.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface MDNewEntryViewController : UIViewController
 
 @end
-

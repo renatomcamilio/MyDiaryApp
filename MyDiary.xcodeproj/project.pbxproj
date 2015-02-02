@@ -10,11 +10,14 @@
 		884B37F11A7F47DF00347AD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 884B37F01A7F47DF00347AD9 /* main.m */; };
 		884B37F41A7F47DF00347AD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 884B37F31A7F47DF00347AD9 /* AppDelegate.m */; };
 		884B37F71A7F47DF00347AD9 /* MyDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 884B37F51A7F47DF00347AD9 /* MyDiary.xcdatamodeld */; };
-		884B37FA1A7F47DF00347AD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884B37F91A7F47DF00347AD9 /* ViewController.m */; };
 		884B37FD1A7F47DF00347AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884B37FB1A7F47DF00347AD9 /* Main.storyboard */; };
 		884B37FF1A7F47DF00347AD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884B37FE1A7F47DF00347AD9 /* Images.xcassets */; };
 		884B38021A7F47DF00347AD9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 884B38001A7F47DF00347AD9 /* LaunchScreen.xib */; };
 		884B380E1A7F47DF00347AD9 /* MyDiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884B380D1A7F47DF00347AD9 /* MyDiaryTests.m */; };
+		884B38191A7F489D00347AD9 /* MDCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 884B38181A7F489D00347AD9 /* MDCoreDataStack.m */; };
+		884B381C1A7F4B3400347AD9 /* MDDiaryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 884B381B1A7F4B3400347AD9 /* MDDiaryEntry.m */; };
+		884B38201A7F540D00347AD9 /* MDEntriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884B381F1A7F540D00347AD9 /* MDEntriesTableViewController.m */; };
+		884B38231A7F554400347AD9 /* MDNewEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884B38221A7F554400347AD9 /* MDNewEntryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +37,20 @@
 		884B37F21A7F47DF00347AD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		884B37F31A7F47DF00347AD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		884B37F61A7F47DF00347AD9 /* MyDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDiary.xcdatamodel; sourceTree = "<group>"; };
-		884B37F81A7F47DF00347AD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		884B37F91A7F47DF00347AD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		884B37FC1A7F47DF00347AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		884B37FE1A7F47DF00347AD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		884B38011A7F47DF00347AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		884B38071A7F47DF00347AD9 /* MyDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		884B380C1A7F47DF00347AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		884B380D1A7F47DF00347AD9 /* MyDiaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDiaryTests.m; sourceTree = "<group>"; };
+		884B38171A7F489D00347AD9 /* MDCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCoreDataStack.h; sourceTree = "<group>"; };
+		884B38181A7F489D00347AD9 /* MDCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCoreDataStack.m; sourceTree = "<group>"; };
+		884B381A1A7F4B3400347AD9 /* MDDiaryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDiaryEntry.h; sourceTree = SOURCE_ROOT; };
+		884B381B1A7F4B3400347AD9 /* MDDiaryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDiaryEntry.m; sourceTree = SOURCE_ROOT; };
+		884B381E1A7F540D00347AD9 /* MDEntriesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDEntriesTableViewController.h; path = ../MDEntriesTableViewController.h; sourceTree = "<group>"; };
+		884B381F1A7F540D00347AD9 /* MDEntriesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MDEntriesTableViewController.m; path = ../MDEntriesTableViewController.m; sourceTree = "<group>"; };
+		884B38211A7F554400347AD9 /* MDNewEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDNewEntryViewController.h; sourceTree = "<group>"; };
+		884B38221A7F554400347AD9 /* MDNewEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDNewEntryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,14 +92,12 @@
 		884B37ED1A7F47DF00347AD9 /* MyDiary */ = {
 			isa = PBXGroup;
 			children = (
-				884B37F21A7F47DF00347AD9 /* AppDelegate.h */,
-				884B37F31A7F47DF00347AD9 /* AppDelegate.m */,
-				884B37F81A7F47DF00347AD9 /* ViewController.h */,
-				884B37F91A7F47DF00347AD9 /* ViewController.m */,
-				884B37FB1A7F47DF00347AD9 /* Main.storyboard */,
+				884B381D1A7F4BB300347AD9 /* CoreData */,
+				884B38241A7F555500347AD9 /* Entries */,
+				884B38251A7F556400347AD9 /* NewEntry */,
 				884B37FE1A7F47DF00347AD9 /* Images.xcassets */,
+				884B37FB1A7F47DF00347AD9 /* Main.storyboard */,
 				884B38001A7F47DF00347AD9 /* LaunchScreen.xib */,
-				884B37F51A7F47DF00347AD9 /* MyDiary.xcdatamodeld */,
 				884B37EE1A7F47DF00347AD9 /* Supporting Files */,
 			);
 			path = MyDiary;
@@ -99,6 +106,8 @@
 		884B37EE1A7F47DF00347AD9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				884B37F21A7F47DF00347AD9 /* AppDelegate.h */,
+				884B37F31A7F47DF00347AD9 /* AppDelegate.m */,
 				884B37EF1A7F47DF00347AD9 /* Info.plist */,
 				884B37F01A7F47DF00347AD9 /* main.m */,
 			);
@@ -120,6 +129,36 @@
 				884B380C1A7F47DF00347AD9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		884B381D1A7F4BB300347AD9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				884B37F51A7F47DF00347AD9 /* MyDiary.xcdatamodeld */,
+				884B381A1A7F4B3400347AD9 /* MDDiaryEntry.h */,
+				884B381B1A7F4B3400347AD9 /* MDDiaryEntry.m */,
+				884B38171A7F489D00347AD9 /* MDCoreDataStack.h */,
+				884B38181A7F489D00347AD9 /* MDCoreDataStack.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		884B38241A7F555500347AD9 /* Entries */ = {
+			isa = PBXGroup;
+			children = (
+				884B381E1A7F540D00347AD9 /* MDEntriesTableViewController.h */,
+				884B381F1A7F540D00347AD9 /* MDEntriesTableViewController.m */,
+			);
+			name = Entries;
+			sourceTree = "<group>";
+		};
+		884B38251A7F556400347AD9 /* NewEntry */ = {
+			isa = PBXGroup;
+			children = (
+				884B38211A7F554400347AD9 /* MDNewEntryViewController.h */,
+				884B38221A7F554400347AD9 /* MDNewEntryViewController.m */,
+			);
+			name = NewEntry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +205,7 @@
 		884B37E31A7F47DF00347AD9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MD;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Renato Camilio";
 				TargetAttributes = {
@@ -223,9 +263,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				884B37F41A7F47DF00347AD9 /* AppDelegate.m in Sources */,
+				884B38231A7F554400347AD9 /* MDNewEntryViewController.m in Sources */,
 				884B37F11A7F47DF00347AD9 /* main.m in Sources */,
-				884B37FA1A7F47DF00347AD9 /* ViewController.m in Sources */,
+				884B381C1A7F4B3400347AD9 /* MDDiaryEntry.m in Sources */,
+				884B38191A7F489D00347AD9 /* MDCoreDataStack.m in Sources */,
 				884B37F71A7F47DF00347AD9 /* MyDiary.xcdatamodeld in Sources */,
+				884B38201A7F540D00347AD9 /* MDEntriesTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

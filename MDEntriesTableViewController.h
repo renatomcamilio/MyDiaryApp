@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MDEntriesTableViewController.h
 //  MyDiary
 //
 //  Created by Renato Camilio on 2/1/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MDEntriesTableViewController : UITableViewController
 
 @end
-
